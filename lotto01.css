@@ -27,10 +27,10 @@ body {
 
 .glowing-btn {
   position: relative;
-  color: hsl(130.67deg 100% 65.56%);
+  color: var(--glow-color);
   cursor: pointer;
   padding: 0.35em 1em;
-  border: 0.15em solid hsl(130.67deg 100% 65.56%);
+  border: 0.15em solid var(--glow-color);
   border-radius: 0.45em;
   background: none;
   perspective: 2em;
